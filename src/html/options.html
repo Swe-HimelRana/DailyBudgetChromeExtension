@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popup.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/tether.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h3>Daily Budget | Options</h3>
+        <small><a target="_blank" href="https://himelrana-swe.com"><i class="fa fa-globe fa-3x"></i></a></small>
+        <small><a target="_blank" href="https://facebook.com/himelrana-swe"><i class="fa fa-facebook-square fa-3x"></i></a></small>
+        <small><a target="_blank" href="https://github.com/Swe-HimelRana/DailyBudgetChromeExtension"><i class="fa fa-github-square fa-3x"></i></a></small>
+        <hr>
+        <p>Your Total Now: <h1 id="totalnow"></h1>
+        </p>
+        <p>Your Limit Now: <h1 id="limitnow"></h1>
+        </p>
+        
+        <form>  <label>Change Max Limit</label>
+                <input class="form-control mb-3" style="max-width: 150px;" type="number" id="maxspand">
+                <input class="btn btn-sm btn-success mb-3" type="button" id="savelimit" value="Save Limit">
+                <input class="btn btn-sm btn-danger mb-3" type="button" id="resetlimit" value="Reset Limit">
+                <input class="btn btn-sm btn-danger mb-3" type="button" id="resettotal" value="Reset Total">
+        </form>
+        
+        </div>
+
+</body>
+
+</html>
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script src="../js/jquery.js"></script>
+        <script src="../js/popup.js"></script>
+        <script src="../js/tether.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <style>
+                * {
+                        margin: 0;
+                        padding: 0;
+                }
+
+                body {
+                        width: 200px;
+                        height: 200px;
+                }
+        </style>
+
+</head>
+
+<body class="container">
+        <span class="badge badge-primary">Total Spend:</span>
+        <h3 id="totalspand"></h3>
+        <span class="badge badge-warning">Spending Limit:</span>
+        <h3 id="spandlimit"></h3>
+        <form>
+                <span class="label">Add Cost: </span><br>
+                <div class="input-group input-group-sm"></div>
+                <div class="input-group-prepend">
+                        <input class="form-control mb-3" type="number" id="addmoney"/>
+                </div>
+                </div>
+
+                <input class="btn btn-sm btn-primary mb-3" type="button" value="Add Spending" id="addspanding">
+        </form>
+
+
+</body>
+
+</html>
